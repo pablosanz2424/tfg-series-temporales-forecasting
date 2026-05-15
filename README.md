@@ -31,29 +31,7 @@ Los scripts principales se encuentran en la raíz del repositorio:
 | `Importaciones italia.R` | Importaciones de bienes de Italia a España |
 | `Demanda electrica.R` | Demanda eléctrica |
 
-> Nota: los nombres de los scripts se han mantenido como aparecen en la carpeta original del trabajo. Si se desea una estructura todavía más homogénea, pueden renombrarse posteriormente usando minúsculas, guiones bajos y numeración.
 
-## Estructura del repositorio
-
-```text
-.
-├── README.md
-├── .gitignore
-├── LICENSE
-├── CITATION.cff
-├── run_all.R
-├── data/
-│   ├── README.md
-│   ├── raw/
-│   └── processed/
-├── results/
-│   ├── README.md
-│   ├── figures/
-│   └── tables/
-├── docs/
-│   └── 7_2_texto_para_tfg.md
-└── *.R
-```
 
 ## Reproducibilidad
 
@@ -69,7 +47,7 @@ Los scripts siguen una lógica común:
 8. Comparación de resultados.
 9. Generación de gráficos y tablas.
 
-En algunos scripts puede ser necesario adaptar rutas locales de archivos de datos externos. Para mejorar la portabilidad, se recomienda sustituir rutas absolutas del ordenador por rutas relativas dentro de la carpeta `data/`.
+
 
 ## Software utilizado
 
@@ -87,9 +65,9 @@ El análisis se ha desarrollado principalmente en R. Entre los paquetes utilizad
 
 ## Datos
 
-Algunas series proceden directamente de librerías internas de R, mientras que otras requieren descarga o importación desde fuentes externas. Por motivos de reproducibilidad y buenas prácticas, la carpeta `data/` se reserva para documentar o almacenar, cuando proceda, los datos utilizados.
+Algunas series proceden directamente de librerías internas de R, mientras que otras requieren descarga o importación desde fuentes externas.
 
-Si algún conjunto de datos está sujeto a restricciones de redistribución, se recomienda no subirlo directamente al repositorio y documentar en su lugar la fuente original y el procedimiento de descarga.
+
 
 ## Autor
 

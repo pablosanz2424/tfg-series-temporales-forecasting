@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "TFG Series Temporales: Modelos clásicos y Deep Learning"
+message: "Si utiliza este repositorio, cite el Trabajo de Fin de Grado asociado."
+type: software
+authors:
+  - family-names: "[Apellidos]"
+    given-names: "[Nombre]"
+year: 2026
+license: MIT
+repository-code: "https://github.com/[usuario]/tfg-series-temporales-forecasting"

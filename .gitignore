@@ -1,0 +1,55 @@
+# =========================
+# Archivos temporales de R
+# =========================
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# =========================
+# Archivos temporales del sistema
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Archivos comprimidos
+# =========================
+*.zip
+*.rar
+*.7z
+
+# =========================
+# Modelos y objetos pesados
+# =========================
+*.h5
+*.keras
+*.rds
+*.RDS
+
+# =========================
+# Datos brutos o procesados
+# =========================
+data/raw/*
+data/processed/*
+
+# Mantener estructura de carpetas
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+# Resultados generados automáticamente
+# =========================
+results/figures/*
+results/tables/*
+
+# Mantener estructura de carpetas
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+
+# =========================
+# Archivos de caché
+# =========================
+__pycache__/
+.cache/
